@@ -41,8 +41,23 @@ def monkey_trouble(a_smile, b_smile):
 
 def sum_double(a, b):
   if a == b:
-    return (a + b)*2
+    result = (a + b)*2
   else:
-    return a + b
+    result = a + b
+  return result
 
 # ---------------------------------------------------------------------------
+
+# Given an int n, return the absolute difference between n and 21, except 
+# return double the absolute difference if n is over 21.
+
+# diff21(19) → 2
+# diff21(10) → 11
+# diff21(21) → 0
+
+def diff21(n):
+  if n > 21:
+    result = (n-21)*2
+  else:
+    result = (21-n)
+  return result
