@@ -1,3 +1,0 @@
-Scanner of mathematical expressions.
-
-
